@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-//just checking because my last 13 previous commit is unverified
+
 
 const requireAuth = (req, res, next) => {
   const token = req.cookies.jwt;
